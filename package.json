@@ -1,30 +1,23 @@
 {
-  "name": "phone_list",
-  "version": "1.0.0",
-  "description": "RestFul APi phone list",
-  "main": "app.js",
-  "scripts": {
-    "start": "node node_modules/nodemon/bin/nodemon.js nodemon app_hooked.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/manupedreira/phoneListApi.git"
-  },
-  "author": "Manu Pedreira",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/manupedreira/phoneListApi/issues"
-  },
-  "homepage": "https://github.com/manupedreira/phoneListApi#readme",
+  "name": "react-redux-client",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "babel-preset-es2015-node6": "^0.4.0",
-    "babel-register": "^6.26.0",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "mongoose": "^5.2.9",
-    "morgan": "^1.9.0",
-    "nodemon": "^1.18.3",
-    "source-map-support": "^0.5.9"
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.32.3",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^3.2.1",
+    "react-router-bootstrap": "^0.23.3",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
