@@ -1,7 +1,7 @@
 const phones = [
     {
         title: 'iPhone X',
-        image: './images/iphone-x.png',
+        image: 'images/iphone-x.png',
         description: 
             `Pantalla Super Retina HD
             Pantalla OLED Multi-Touch de 5,8 pulgadas (en diagonal)
@@ -19,7 +19,7 @@ const phones = [
     },
     {
         title: 'iPhone 8',
-        image: './images/iphone-8.png',
+        image: 'images/iphone-8.png',
         description: 
             `Pantalla Retina HD
             Pantalla panorámica LCD Multi‑Touch de 4,7 pulgadas (en diagonal) con tecnología IPS
@@ -39,7 +39,7 @@ const phones = [
     },
     {
         title: 'Samsung Galaxy S9',
-        image: './images/galaxy-s9.png',
+        image: 'images/galaxy-s9.png',
         description: 
             `Tamaño
             146.5mm (5.8" rectángulo completo) / 143.3mm (5.6" esquinas redondeadas)
@@ -56,7 +56,7 @@ const phones = [
     },
     {
         title: 'Samsung Galaxy S8',
-        image: './images/galaxy-s8.png',
+        image: 'images/galaxy-s8.png',
         description: 
             `Tamaño
             5.8" 146.5mm, full rectangle (5.6" 143.3mm, rounded corners)
